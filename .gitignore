@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Environment files (never commit secrets)
+.env
+
+# Task 1 — generated output
+task1-house-price-regression/*.png
+
+# Task 3 — runtime-generated reminder storage
+task3-voice-assistant/reminders.json
+
+# OS / editor cruft
+.DS_Store
+.vscode/
+.idea/
